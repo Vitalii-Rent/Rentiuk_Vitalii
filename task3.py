@@ -1,5 +1,5 @@
 def digital_root(num: int):
-    while num > 10:
+    while num >= 10:
         print(num)
         num = recursion(num)
     return num
