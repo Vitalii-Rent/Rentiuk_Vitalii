@@ -3,4 +3,4 @@ def first_non_repeating_letter(word: str):
         num = word.lower().count(letter.lower())
         if num == 1:
             return letter
-    return None
+    return ''
